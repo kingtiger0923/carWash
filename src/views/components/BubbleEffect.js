@@ -9,13 +9,13 @@ function BubbleEffect() {
 
   useEffect(() => {
     let bubbleDiv = document.getElementsByClassName('bubble-effect')[0];
-    for( let i = 0; i < 20; i ++ ) {
+    for( let i = 0; i < 15; i ++ ) {
       let ele = document.createElement('img');
       ele.classList.add('rotateme');
       ele.src = BubbleImage;
       ele.width = 1050 + getRandomInt(100) + '';
       ele.height = 750 + getRandomInt(100) + '';
-      ele.style = `left: ${getRandomInt(1920) - 400}px; top: ${getRandomInt(3500)}px;`;
+      ele.style = `left: ${getRandomInt(1920) - 400}px; top: ${getRandomInt(2750)}px;`;
       bubbleDiv.appendChild(ele);
     }
   }, []);

@@ -21,6 +21,10 @@ code {
     monospace;
 }
 
+.joinus .joinus-caption p {
+  color: rgb(200, 200, 200);
+}
+
 header .logo img {
   margin: 15px 0px 15px 0px;
 }

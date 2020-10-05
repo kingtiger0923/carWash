@@ -8,7 +8,7 @@ import CarouselImage4 from './../assets/section2/carousel4.png';
 
 function Section2() {
   return (
-    <div className="section2 orderback">
+    <div className="section2 orderback" id="bookwash">
       <h1>See Our Amazing Packages</h1>
       <Carousel>
         <Carousel.Item>

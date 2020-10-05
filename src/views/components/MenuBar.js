@@ -50,14 +50,14 @@ function MenuBar() {
                 <div className="col-12">
                   <div className="mobile_menu d-block d-lg-none">
                     <div className="slicknav_menu">
-                      <a href="#" aria-haspopup="true" role="button" tabIndex="0" className="slicknav_btn" onClick={mobileMenuToggle}>
+                      <div aria-haspopup="true" role="button" tabIndex="0" className="slicknav_btn" onClick={mobileMenuToggle}>
                         <span className="slicknav_menutxt">MENU</span>
                         <span className="slicknav_icon">
                           <span className="slicknav_icon-bar"></span>
                           <span className="slicknav_icon-bar"></span>
                           <span className="slicknav_icon-bar"></span>
                         </span>
-                      </a>
+                      </div>
                       <ul className="slicknav_nav slicknav_hidden" aria-hidden="false" role="menu" style={{display: 'block'}}>
                         <li className="active"><a href="#home" role="menuitem" tabIndex="0">Home</a></li>
                         <li><a href="#bookwash" role="menuitem" tabIndex="0">Book a Wash &amp; Detail</a></li>

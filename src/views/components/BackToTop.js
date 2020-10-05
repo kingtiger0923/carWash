@@ -6,8 +6,8 @@ const ScrollToTop = () => {
 
 function BackToTop() {
   return (
-    <div id="back-top" onClick={ScrollToTop} >
-      <a title="Go to Top"> <i className="fas fa-level-up-alt"></i></a>
+    <div id="back-top" onClick={ScrollToTop} style={{display: 'none'}}>
+      <a title="Go to Top" href="#home"> <i className="fas fa-level-up-alt"></i></a>
     </div>
   );
 }

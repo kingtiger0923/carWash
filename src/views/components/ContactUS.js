@@ -33,7 +33,7 @@ function ContactUS() {
                 </div>
               </div>
               <div className="form-group mt-3">
-                <button type="submit" className="button button-contactForm boxed-btn">Send</button>
+                <button type="submit" className="btn btn-primary px-5">Send</button>
               </div>
             </form>
           </div>

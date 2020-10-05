@@ -10,7 +10,8 @@ import ContactUS from './views/components/ContactUS';
 import GoogleMap from './views/components/GoogleMap';
 import Footer from './views/components/Footer';
 import BackToTop from './views/components/BackToTop';
-import Section2 from './views/Secton2';
+import Section2 from './views/Section2';
+import Section3 from './views/Section3';
 import BubbleEffect from './views/components/BubbleEffect';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/" component={BubbleEffect} />
       <Route exact path="/" component={Home} />
       <Route exact path="/" component={Section2} />
+      <Route exact path="/" component={Section3} />
       <Route exact path="/" component={AboutSection} />
       <Route exact path="/" component={GoogleMap} />
       <ContactUS />

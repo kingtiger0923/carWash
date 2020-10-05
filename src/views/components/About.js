@@ -4,7 +4,7 @@ import LogoImage from './../../assets/mainLogo.png';
 
 function About() {
   return (
-    <section className="about-area2 pb-bottom">
+    <section className="about-area2 pb-bottom orderback pt-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-5 col-md-9">
