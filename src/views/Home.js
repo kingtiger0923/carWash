@@ -9,7 +9,7 @@ function Home() {
         <div className="col-lg-7 col-md-12" style={{zIndex:'999'}}>
           <div className="hero-content">
             <h1 className="font-weight-bold mb-5">Welcome to Faevaa Detail &amp; Go</h1>
-            <p className="text-left">Faevaa Detail &amp; Go is a millennial owned full-service detail shop &amp; mobile detailing services company in Northeast Houston Texas.</p>
+            <p className="text-left">A millennial owned full-service detail shop &amp; mobile detailing services company in Northeast Houston Texas.</p>
             <p className="text-left">Our detail shop offers exterior &amp; interior cleaning, wheel &amp; tire cleaning, odor bombing, waxing and much more.</p>
             <p className="text-left">We are open 7 days a week, Monday-Sunday from 9:00 AM-8:00 PM no matter if you work early or late Faevaa Detail &amp; Go is at your disposal.</p>
             <p className="text-left">Our mission is to provide low cost affordable car washes and detailing at a fraction of the cost than leading car care providers in Houston Texas.</p>
