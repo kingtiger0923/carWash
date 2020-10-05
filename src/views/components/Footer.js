@@ -44,11 +44,11 @@ function Footer() {
                   <div className="footer-tittle">
                     <h4>Company</h4>
                     <ul>
-                      <li><a href="#">Design &amp; creatives</a></li>
-                      <li><a href="#">Telecommunication</a></li>
-                      <li><a href="#">Restaurant</a></li>
-                      <li><a href="#">Programing</a></li>
-                      <li><a href="#">Architecture</a></li>
+                      <li><a href="#hello">Design &amp; creatives</a></li>
+                      <li><a href="#hello">Telecommunication</a></li>
+                      <li><a href="#hello">Restaurant</a></li>
+                      <li><a href="#hello">Programing</a></li>
+                      <li><a href="#hello">Architecture</a></li>
                     </ul>
                   </div>
                 </div>
@@ -58,11 +58,11 @@ function Footer() {
                   <div className="footer-tittle">
                     <h4>Support</h4>
                     <ul>
-                      <li><a href="#">Design &amp; creatives</a></li>
-                      <li><a href="#">Telecommunication</a></li>
-                      <li><a href="#">Restaurant</a></li>
-                      <li><a href="#">Programing</a></li>
-                      <li><a href="#">Architecture</a></li>
+                      <li><a href="#hello">Design &amp; creatives</a></li>
+                      <li><a href="#hello">Telecommunication</a></li>
+                      <li><a href="#hello">Restaurant</a></li>
+                      <li><a href="#hello">Programing</a></li>
+                      <li><a href="#hello">Architecture</a></li>
                     </ul>
                   </div>
                 </div>

@@ -26,19 +26,19 @@ function MenuBar() {
                     <div className="main-menu d-none d-lg-block">
                       <nav>
                         <ul id="navigation">                                                                                          
-                          <li className="active" ><Link to="/">Home</Link></li>
-                          <li><Link to="/">Book a Wash &amp; Detail</Link></li>
-                          <li><Link to="/">Shop</Link></li>
-                          <li><Link to="/">Careers</Link></li>
-                          <li><Link to="/">Gallery</Link>
+                          <li className="active" ><a href="#home">Home</a></li>
+                          <li><a href="#bookwash">Book a Wash &amp; Detail</a></li>
+                          <li><a href="#shop">Shop</a></li>
+                          <li><a href="#careers">Careers</a></li>
+                          <li><a href="#gallery">Gallery</a>
                             {/* <ul className="submenu">
                               <li><a href="blog.html">Blog</a></li>
                               <li><a href="blog_details.html">Blog Details</a></li>
                               <li><a href="elements.html">Element</a></li>
                             </ul> */}
                           </li>
-                          <li><Link to="/">About Us</Link></li>
-                          <li><Link to="/">Contact Us</Link></li>
+                          <li><a href="#aboutus">About Us</a></li>
+                          <li><a href="#contactus">Contact Us</a></li>
                         </ul>
                       </nav>
                     </div>
@@ -59,13 +59,13 @@ function MenuBar() {
                         </span>
                       </a>
                       <ul className="slicknav_nav slicknav_hidden" aria-hidden="false" role="menu" style={{display: 'block'}}>
-                        <li className="active"><Link to="index.html" role="menuitem" tabIndex="0">Home</Link></li>
-                        <li><Link to="features.html" role="menuitem" tabIndex="0">Book a Wash &amp; Detail</Link></li>
-                        <li><Link to="about.html" role="menuitem" tabIndex="0">Shop</Link></li>
-                        <li><Link to="faq.html" role="menuitem" tabIndex="0">Careers</Link></li>
-                        <li><Link to="faq.html" role="menuitem" tabIndex="0">Gallery</Link></li>
-                        <li><Link to="faq.html" role="menuitem" tabIndex="0">About Us</Link></li>
-                        <li><Link to="faq.html" role="menuitem" tabIndex="0">Contact Us</Link></li>
+                        <li className="active"><a href="#home" role="menuitem" tabIndex="0">Home</a></li>
+                        <li><a href="#bookwash" role="menuitem" tabIndex="0">Book a Wash &amp; Detail</a></li>
+                        <li><a href="#shop" role="menuitem" tabIndex="0">Shop</a></li>
+                        <li><a href="#careers" role="menuitem" tabIndex="0">Careers</a></li>
+                        <li><a href="#gallery" role="menuitem" tabIndex="0">Gallery</a></li>
+                        <li><a href="#aboutus" role="menuitem" tabIndex="0">About Us</a></li>
+                        <li><a href="#contactus" role="menuitem" tabIndex="0">Contact Us</a></li>
                         {/* <li className="slicknav_parent slicknav_collapsed">
                           <a href="#" role="menuitem" aria-haspopup="true" tabIndex="0" className="slicknav_item slicknav_row"><a href="/" tabIndex="0">Blog</a>
                           <span className="slicknav_arrow">+</span></a>
