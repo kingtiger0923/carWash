@@ -9,25 +9,32 @@ function ServiceAppointment() {
   const [dataInfo, setDataInfo] = useState({
     email: '',
     password: '',
-    confPass: ''
+    confPass: '',
+    carType: 0
   })
 
   const nextStep = () => {
-    step += 1;
+    setStep(step + 1);
     if( step === 4 ) {
       // 
     }
   }
 
+  const prevStep = () => {
+    if( step !== 0 ) {
+      setStep(step - 1);
+    }
+  }
+
   const saveData = (data) => {
-    setDataInfo({...dataInfo, ...data});
+    setDataInfo(Object.assign(dataInfo, data));
   }
 
   return (
     <div className="servicebooking">
-      {step === 0 && <Step1 />}
-      {step === 1 && <Step2 />}
-      {step === 2 && <Step3 />}
+      {step === 0 && <Step1 nextStep={nextStep} saveData={saveData}/>}
+      {step === 1 && <Step2 prevStep={prevStep} nextStep={nextStep} saveData={saveData}/>}
+      {step === 2 && <Step3 prevStep={prevStep} nextStep={nextStep} saveData={saveData}/>}
       {/* <div className="step-actions mt-3">
         {
           step !== 0 &&

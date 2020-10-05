@@ -250,6 +250,7 @@ header .logo img {
 }
 
 .servicebooking .step-actions {
+  max-width: 500px;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -258,4 +259,38 @@ header .logo img {
 .small-text {
   font-size: 10px;
   line-height: 12px;
+}
+
+.step2 h1{
+  color: white;
+}
+
+.step2 .car-select:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.step2 .car-select.select{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.step2 .car-select {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.step2 .car-select img{
+  width: 100%;
+}
+
+.step2 .car-select h1 {
+  color: #17a2b8!important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.servicebooking .error {
+  font-size: 11px;
+  color: red;
 }
