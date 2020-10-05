@@ -14,6 +14,7 @@ import Section2 from './views/Section2';
 import Section3 from './views/Section3';
 import BubbleEffect from './views/components/BubbleEffect';
 import SignUp from './views/SignUp';
+import ServiceAppointment from './views/ServiceAppointment';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Route exact path="/" component={GoogleMap} />
       <Route exact path="/" component={ContactUS} />
       <Route exact path="/joinus" component={SignUp} />
+      <Route exact path="/bookawash" component={ServiceAppointment} />
       <Footer />
       <BackToTop />
     </div>

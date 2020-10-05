@@ -5,8 +5,8 @@ import Logo from './../assets/mainLogo.png';
 function SignUp() {
   return (
     <div className="signup">
-      <main class="login-body" data-vide-bg="assets/img/login-bg.mp4">
-        <form class="form-default" action="login-bg.mp4" method="POST">
+      <main class="login-body">
+        <form class="form-default" action="" method="POST">
           <div class="login-form">
             <div class="logo-login">
               <Link to="/"><img src={Logo} alt="" /></Link>

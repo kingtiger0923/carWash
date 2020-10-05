@@ -105,6 +105,14 @@ header .logo img {
   padding: 15px;
   margin: 0px 5px;
   height: 100%;
+  padding-bottom: 60px;
+}
+
+.section2 .carousel .row .desc > div span {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 80px);
+  left: 40px;
 }
 
 .section2 .carousel .row .desc > div h1 {
@@ -226,4 +234,28 @@ header .logo img {
   100%{
     transform: rotate(360deg);
   }
+}
+
+.servicebooking {
+  padding-top: 150px;
+  height: 80vh;
+}
+
+.servicebooking .login-form {
+  position: relative;
+  margin: auto;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
+.servicebooking .step-actions {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.small-text {
+  font-size: 10px;
+  line-height: 12px;
 }
