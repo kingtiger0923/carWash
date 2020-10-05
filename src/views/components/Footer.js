@@ -19,9 +19,9 @@ function Footer() {
                       <h4>Follow Our Social</h4>
                     </div>
                     <div className="footer-social">
-                      <a href="https://twitter.com/faevaadetailgo"><i className="fab fa-twitter"></i></a>
-                      <a href="https://m.facebook.com/faevaadetailgo/"><i className="fab fa-facebook-f"></i></a>
-                      <a href="https://www.instagram.com/faevaadetailgo/"><i className="fab fa-instagram"></i></a>
+                      <a href="https://twitter.com/faevaadetailgo" target="blank"><i className="fab fa-twitter"></i></a>
+                      <a href="https://m.facebook.com/faevaadetailgo/" target="blank"><i className="fab fa-facebook-f"></i></a>
+                      <a href="https://www.instagram.com/faevaadetailgo/" target="blank"><i className="fab fa-instagram"></i></a>
                     </div>
                   </div>
                 </div>

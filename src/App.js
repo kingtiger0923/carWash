@@ -11,12 +11,14 @@ import GoogleMap from './views/components/GoogleMap';
 import Footer from './views/components/Footer';
 import BackToTop from './views/components/BackToTop';
 import Section2 from './views/Secton2';
+import BubbleEffect from './views/components/BubbleEffect';
 
 function App() {
   return (
     <div className="App">
       <Loader />
       <MenuBar />
+      <Route exact path="/" component={BubbleEffect} />
       <Route exact path="/" component={Home} />
       <Route exact path="/" component={Section2} />
       <Route exact path="/" component={AboutSection} />

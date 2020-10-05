@@ -33,7 +33,7 @@ function Home() {
           <p className="text-success">We offer cable TV and complimentary pool table for our customer enjoyment while you wait for your vehicle.</p>
         </div>
         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <center style={{fontSize: '5em'}}><i class="fas fa-popcorn"></i></center>
+          <center style={{fontSize: '5em'}}><i class="fas fa-coffee"></i></center>
           <h1 className="font-weight-bold text-info">Free Popcorn &amp; Coffee Machine</h1>
           <p className="text-success">Complimentary coffee and popcorn served for our customers while you wait for your vehicle to be finished.</p>
         </div>
@@ -43,7 +43,7 @@ function Home() {
           <p className="text-success">We have onsite vending machines for our customers to purchase drinks and snacks to consume while they await completion of their vehicle detailing.</p>
         </div>
         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <center style={{fontSize: '5em'}}><i class="fa fa-hotdog"></i></center>
+          <center style={{fontSize: '5em'}}><i class="fa fa-utensils"></i></center>
           <h1 className="font-weight-bold text-info">Free Chili Cheese Hot Dogs</h1>
           <p className="text-success">Every Friday-Sunday our detail shop offers free chili cheese dog light lunches to consume while you wait for your vehicle to be completed.</p>
         </div>
