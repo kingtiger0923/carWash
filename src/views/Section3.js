@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ExpressCarWash from './../assets/express-car-wash.png';
 
 function Section3() {
@@ -14,7 +15,7 @@ function Section3() {
               <p className="mb-20">
                 Did you know? It pays to visit our detail shop each time you need a car wash and detailing. We offer exculsive promotions and member only savings along with incentives all year long thus making Feavaa Detail &amp; Go the best choice in the car wash &amp; care industry.
               </p>
-              <span className="btn btn-primary">Become A Rewards Member</span>
+              <Link to="/joinus" className="btn btn-primary">Become A Rewards Member</Link>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-12">

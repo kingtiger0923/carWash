@@ -113,6 +113,14 @@ header .logo img {
   min-height: 3em;
 }
 
+.login-form .logo-login img {
+  width: auto!important;
+}
+
+.signup .login-form a {
+  font-size: 16px;
+}
+
 .section2 .carousel .row .desc > div p {
   color: #28a745!important;
   font-size: 12px;
@@ -206,6 +214,7 @@ header .logo img {
 }
 
 .rotateme {
+  opacity: 0.2;
   position: absolute;
   animation: rotateme 60s infinite;
 }

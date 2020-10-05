@@ -13,6 +13,7 @@ import BackToTop from './views/components/BackToTop';
 import Section2 from './views/Section2';
 import Section3 from './views/Section3';
 import BubbleEffect from './views/components/BubbleEffect';
+import SignUp from './views/SignUp';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       <Route exact path="/" component={Section3} />
       <Route exact path="/" component={AboutSection} />
       <Route exact path="/" component={GoogleMap} />
-      <ContactUS />
+      <Route exact path="/" component={ContactUS} />
+      <Route exact path="/joinus" component={SignUp} />
       <Footer />
       <BackToTop />
     </div>
