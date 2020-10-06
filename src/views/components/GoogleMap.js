@@ -23,7 +23,7 @@ function GoogleMap() {
 
       <div className="google-map">
         <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyCAr7MHY2HrlLGLyFRCgEh7AAUw0oK6eLs' }}
+          bootstrapURLKeys={{ key: 'AIzaSyDPqOEz6CYCBXU364qWs35E9IgLZ1DeGuM' }}
           defaultCenter={location}
           defaultZoom={12}
         >

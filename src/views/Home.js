@@ -20,7 +20,7 @@ function Home() {
           <img src={CarHeroImage} alt="Carmy Hero Car" width="100%" height="auto"/>
         </div>
       </div>
-      <h1 className="font-weight-bold mt-2 text-white mt--50 mb-5">Why choose Faevaa Detail &amp; Go?</h1>
+      <h1 className="font-weight-bold mt-2 text-black mt--50 mb-5">Why choose Faevaa Detail &amp; Go?</h1>
       <div className="row mt-4">
         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <center style={{fontSize: '5em'}}><i className="fas fa-wifi"></i></center>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 
 import CarouselImage1 from './../assets/section2/carousel1.png';
@@ -27,7 +28,7 @@ function Section2() {
                 <p>Spray Wax Shining</p>
                 <p>Duration: 15 Minutes</p>
                 <p>Price: $10.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -38,7 +39,7 @@ function Section2() {
                 <p>$10.00 Additional Ultimate Addon Package which includes spray waxing &amp; Interior window cleaning.</p>
                 <p>Duration: 6 Minutes</p>
                 <p>Price: $5.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -49,7 +50,7 @@ function Section2() {
                 <p>Window Cleaning &amp; Shining</p>
                 <p>Duration: 10 Minutes</p>
                 <p>Price: $10.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -63,7 +64,7 @@ function Section2() {
                 <p>Seat wipe off &amp; Complete Interior Odor Bombing</p>
                 <p>Duration: 30 Minutes</p>
                 <p>Price: $25.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ function Section2() {
                 <p>Spray Wax Shining</p>
                 <p>Duration: 15 Minutes</p>
                 <p>Price: $15.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -95,7 +96,7 @@ function Section2() {
                 <p>$10.00 Additional Ultimate Addon Package which includes spray waxing &amp; Interior window cleaning.</p>
                 <p>Duration: 6 Minutes</p>
                 <p>Price: $8.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -106,7 +107,7 @@ function Section2() {
                 <p>Window Cleaning &amp; Shining</p>
                 <p>Duration: 10 Minutes</p>
                 <p>Price: $15.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -120,7 +121,7 @@ function Section2() {
                 <p>Seat wipe off &amp; Complete Interior Odor Bombing</p>
                 <p>Duration: 30 Minutes</p>
                 <p>Price: $30.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
           </div>
@@ -141,7 +142,7 @@ function Section2() {
                 <p>Spray Wax Shining</p>
                 <p>Duration: 15 Minutes</p>
                 <p>Price: $15.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -152,7 +153,7 @@ function Section2() {
                 <p>$10.00 Additional Ultimate Addon Package which includes spray waxing &amp; Interior window cleaning.</p>
                 <p>Duration: 6 Minutes</p>
                 <p>Price: $8.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -163,7 +164,7 @@ function Section2() {
                 <p>Window Cleaning &amp; Shining</p>
                 <p>Duration: 10 Minutes</p>
                 <p>Price: $15.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -177,7 +178,7 @@ function Section2() {
                 <p>Seat wipe off &amp; Complete Interior Odor Bombing</p>
                 <p>Duration: 30 Minutes</p>
                 <p>Price: $30.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
           </div>
@@ -198,7 +199,7 @@ function Section2() {
                 <p>Spray Wax Shining</p>
                 <p>Duration: 15 Minutes</p>
                 <p>Price: $15.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -209,7 +210,7 @@ function Section2() {
                 <p>$10.00 Additional Ultimate Addon Package which includes spray waxing &amp; Interior window cleaning.</p>
                 <p>Duration: 6 Minutes</p>
                 <p>Price: $8.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -220,7 +221,7 @@ function Section2() {
                 <p>Window Cleaning &amp; Shining</p>
                 <p>Duration: 10 Minutes</p>
                 <p>Price: $15.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 desc">
@@ -234,7 +235,7 @@ function Section2() {
                 <p>Seat wipe off &amp; Complete Interior Odor Bombing</p>
                 <p>Duration: 30 Minutes</p>
                 <p>Price: $30.00</p>
-                <span className="btn btn-primary">Schedule a Detail</span>
+                <Link to="/bookawash" className="btn btn-primary">Schedule a Detail</Link>
               </div>
             </div>
           </div>

@@ -6,29 +6,29 @@ function ContactUS() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h2 className="contact-title font-weight-bold text-white mt-5">Get in Touch</h2>
+            <h2 className="contact-title font-weight-bold text-black mt-5">Get in Touch</h2>
           </div>
           <div className="col-lg-8">
             <form className="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" noValidate="novalidate">
               <div className="row">
                 <div className="col-12">
                   <div className="form-group">
-                    <textarea className="form-control w-100 text-white" name="message" id="message" cols="30" rows="9" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter Message' } placeholder=" Enter Message"></textarea>
+                    <textarea className="form-control w-100 text-black" name="message" id="message" cols="30" rows="9" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter Message' } placeholder=" Enter Message"></textarea>
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="form-group">
-                    <input className="form-control valid text-white" name="name" id="name" type="text" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter your name'} placeholder="Enter your name" />
+                    <input className="form-control valid text-black" name="name" id="name" type="text" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter your name'} placeholder="Enter your name" />
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="form-group">
-                    <input className="form-control valid text-white" name="email" id="email" type="email" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter email address'} placeholder="Email" />
+                    <input className="form-control valid text-black" name="email" id="email" type="email" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter email address'} placeholder="Email" />
                   </div>
                 </div>
                 <div className="col-12">
                   <div className="form-group">
-                    <input className="form-control text-white" name="subject" id="subject" type="text" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter Subject'} placeholder="Enter Subject" />
+                    <input className="form-control text-black" name="subject" id="subject" type="text" onFocus={ (e) => e.target.placeholder = '' } onBlur={ (e) => e.target.placeholder = 'Enter Subject'} placeholder="Enter Subject" />
                   </div>
                 </div>
               </div>

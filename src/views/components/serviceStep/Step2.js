@@ -5,16 +5,17 @@ import CarType3 from './../../../assets/carousel/slide3.png';
 import CarType4 from './../../../assets/carousel/slide4.png';
 
 function Step2(props) {
-  const [select, changeSelect] = useState(0);
+  const [select, changeSelect] = useState(props.init.carType);
 
   const prevStep = (e) => {
     e.preventDefault();
+    props.saveData({carType: select});
     props.prevStep();
   }
 
   const nextStep = (e) => {
     e.preventDefault();
-    props.saveData({'carType': select});
+    props.saveData({carType: select});
     props.nextStep();
   }
 
