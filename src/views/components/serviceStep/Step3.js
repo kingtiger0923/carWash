@@ -30,7 +30,7 @@ function Step3(props) {
     let newData = {...data};
     newData[e.target.name] = e.target.value;
     setData(newData);
-    if( newData.email !== '' && newData.password !== '' && newData.confpass !== '' ) {
+    if( newData.vmake !== '' && newData.vmodel !== '' && newData.vyear !== '' && newData.vcolor !== '' ) {
       setError(0);
     }
   }
@@ -46,20 +46,20 @@ function Step3(props) {
             <input type="text" name="vmake" placeholder="Vehicle Make" value={data.vmake} onChange={handleChange}/>
           </div>
           <div className="form-input">
-            <label htmlFor="vmodel">Vehicle Make</label>
+            <label htmlFor="vmodel">Vehicle Model</label>
             <input type="text" name="vmodel" placeholder="Vehicle Model" value={data.vmodel} onChange={handleChange}/>
           </div>
           <div className="form-input">
-            <label htmlFor="vyear">Vehicle Make</label>
+            <label htmlFor="vyear">Vehicle Year</label>
             <input type="text" name="vyear" placeholder="Vehicle Year" value={data.vyear} onChange={handleChange}/>
           </div>
           <div className="form-input">
-            <label htmlFor="vcolor">Vehicle Make</label>
+            <label htmlFor="vcolor">Vehicle Color</label>
             <input type="text" name="vcolor" placeholder="Vehicle Color" value={data.vcolor} onChange={handleChange}/>
           </div>
         </div>
-        <p className="text-black small-text">By creating an online customer profile, you agree to the terms and conditions along with privacy polices of Faevaa Detail &amp; Go. We do not sell your information to third party companies. By booking a detail appointment online we accept all major credit 
-          and debit cards securely online through stripe. Payment must be made in full to confirm your detail appointment.</p>
+        {/* <p className="text-black small-text">By creating an online customer profile, you agree to the terms and conditions along with privacy polices of Faevaa Detail &amp; Go. We do not sell your information to third party companies. By booking a detail appointment online we accept all major credit 
+          and debit cards securely online through stripe. Payment must be made in full to confirm your detail appointment.</p> */}
         <div className="step-actions mt-3">
           <button className="btn btn-primary mx-5 py-4" onClick={prevStep}>Back</button>
           <button className="btn btn-primary mx-5 py-4" onClick={nextStep}>Continue</button>

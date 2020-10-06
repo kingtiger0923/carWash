@@ -34,8 +34,8 @@ function Step4(props) {
         <div className="service step-1">
           { error === 1 && <span className="error">Fill in the below inputs!</span> }
           <div className="form-input">
-            <label htmlFor="detailRequest">Email Address</label>
-            <input type="textarea" name="detailRequest" placeholder="Email Address" value={detailRequest} onChange={handleChange}/>
+            <label htmlFor="detailRequest">Additional Requirements</label>
+            <input type="textarea" name="detailRequest" placeholder="Enter Your additional Requirements" value={detailRequest} onChange={handleChange}/>
           </div>
         </div>
         <div className="step-actions mt-3">
